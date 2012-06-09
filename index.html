@@ -1,7 +1,149 @@
-<html>
-<head>
-</head>
-<body>
-Website for encourage JUGChennai members to join and participate in Community projects. 
-</body>
+<!doctype html> 
+<html  lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Code Gala</title>
+		<meta name="description" content="Uniting People from chenai for coding fun.">
+		<meta name="author" content="Satta Ravi(Jug Chennai)">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<img class="logo" src="assets/img/CodeGala.png" alt="Logo">
+			<div class="slides">
+				<section>
+					<h2>Code Gala</h2>
+					<p>Bringing like minded people to a place to explore ideas and to share their knowledge.</p>
+				</section>
+				
+				<section>
+					<h2>What CodeGala is ...</h2>
+					<blockquote>Keep Coding keep ROcking!</blockquote>
+					<p>Its action... coding is the main aim. </p>
+				</section>
+				
+				<section>
+					<h2>What CodeGala is not ...</h2>
+					<p>Its not talking. Its not the day for discussion as group. There may people talk about their project how to do. You can’t expect any class or session in this event.</p>					
+				</section>
+
+				<section>
+					<h2>Why do you need CodeGala ?</h2>
+					<p>Explore the possibilities to use the community  in effective manner to find innovative ideas and share knowledge</p>
+				</section>
+
+
+				<section>
+					<h2>What do you benefit from CodeGala ?</h2>
+					<p>Explore, Educate, Innovate, Fun ...</p>
+				</section>
+				
+				<section>
+					<h2>How often does CodeGala Happen?</h2>
+					<p>CodeGala happens on all saturdays execpt the second saturday of every month.</p>
+				</section>
+
+				<section>
+					<h2>Who can attend CodeGala?</h2>
+					<ul style="list-style:none">
+						<li>Anyone who..</li>
+						<li>have plan to work with.</li>
+						<li>project in mind,</li>
+						<li>who like to contribute to their favorite framework/tools etc</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h2>Are there any prerequisites for CodeGala ?</h2>
+					<p>Nothing unless you have anything in your mind :) Come up with an idea to work with.</p>
+				</section>
+
+				<section>
+					<h2>What is the schedule of CG ?</h2>
+					<p>Nothing as such. We meet most of the Saturday and it goes from 10am to 5pm.</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Who is behind CodeGala ?</h2>
+						<p>Its a initiative from the JUGChennai Community <br/>(but there are guys behind the Idea)</p>
+					</section>
+					<section>
+						<p>The guy behind the idea - Arivu.<br/>The guy behind the name - Arun<br>The guy who actually made it possible - Raj<br>The Guy who kick started  - Prasanna</p>
+					</section>
+				</section>				
+
+				<section>
+					<h2>Still have queries ???</h2>
+					<p>Feel free to say hi<br>Rajmahendra<br>Arivazhagan<br>Prasanna<br>Satta Ravi</p>
+				</section>
+
+				<section>
+					<h2>List of Active CodeGala Projects</h2>
+					<p>There are many projects running inside CG that are getting recognition and momentum. <br>Few of the top level Projects  <br>VisageFX (Development/documentation)<br>JUGChennai Event portal<br>JUGChennai Members site</p>
+				</section>
+				
+				<section>
+					<h1>Stay updated</h1>
+					<h3 class="inverted">Twitter</h3>
+				</section>				
+
+			</div>
+
+			<!-- The navigational controls UI -->
+			<aside class="controls">
+				<a class="left" href="#">&#x25C4;</a>
+				<a class="right" href="#">&#x25BA;</a>
+				<a class="up" href="#">&#x25B2;</a>
+				<a class="down" href="#">&#x25BC;</a>
+			</aside>
+
+			<footer style="position:fixed;bottom:0px;font-size:18px;color:#000;padding-bottom:15px;padding-left:20px">A Jug Chennai Initiative</footer>
+			<!-- Displays presentation progress, max value changes via JS to reflect # of slides -->
+			<div class="progress"><span></span></div>
+									
+		</div>
+		<script src="lib/classList.js"></script>
+		<script src="js/reveal.js"></script>
+		
+		<script>
+			// Parse the query string into a key/value object
+			var query = {};
+			location.search.replace( /[A-Z0-9]+?=(\w*)/gi, function(a) {
+				query[ a.split( '=' ).shift() ] = a.split( '=' ).pop();
+			} );
+
+			Reveal.initialize({
+				// Display controls in the bottom right corner
+				controls: true,
+
+				// Display a presentation progress bar
+				progress: true,
+
+				// If true; each slide will be pushed to the browser history
+				history: true,
+
+				// Loops the presentation, defaults to false
+				loop: true,
+
+				// Flags if mouse wheel navigation should be enabled
+				mouseWheel: true,
+
+				// Apply a 3D roll to links on hover
+				rollingLinks: true,
+
+				// UI style
+				theme: query.theme || 'default', // default/neon
+
+				// Transition style
+				transition: query.transition || 'concave' // default/cube/page/concave/linear(2d)
+			});
+		</script>		
+	</body>
 </html>
