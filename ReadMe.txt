@@ -1,1 +1,0 @@
-CodeGala Landing Webpage
