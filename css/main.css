@@ -39,9 +39,28 @@ body {
 	font-weight: 200;
 	letter-spacing: -0.02em;
 	color: #737373;
-	background: #333 url('../assets/img/bk.png');
+	background: #FFF url('../assets/img/bk.png');
+}
+.noBullets li{
+	list-style:none;
+}
+h3 a{
+	padding:10px;
 }
 
+#footer{
+	position:fixed;
+	bottom:0px;
+	font-size:0.5em;
+	color:#333;
+	padding-bottom:15px;
+	text-align:center;
+	width:100%;
+}
+
+footer p{
+	margin: 0 auto;
+}
 /*********************************************
  * HEADERS
  *********************************************/
