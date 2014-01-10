@@ -47,16 +47,16 @@
 
         <div class="row">
           <div class="col-lg-4 col-md-4">
-            <h3><i class="fa fa-check-circle"></i> Bootstrap 3 Built</h3>
-            <p>The 'Modern Business' website template by <a href="http://startbootstrap.com">Start Bootstrap</a> is built with <a href="http://getbootstrap.com">Bootstrap 3</a>. Make sure you're up to date with latest Bootstrap documentation!</p>
+            <h3><i class="fa fa-check-circle"></i>Learning</h3>
+            <p>This will be a platfor for you to learn the emerging technology in Java platform. Provides a platform for all level of people to learn and grow under one roof.</p>
           </div>
           <div class="col-lg-4 col-md-4">
-            <h3><i class="fa fa-pencil"></i> Ready to Style &amp; Edit</h3>
-            <p>You're ready to go with this pre-built page structure, now all you need to do is add your own custom stylings! You can see some free themes over at <a href="http://bootswatch.com">Bootswatch</a>, or come up with your own using <a href="http://getbootstrap.com/customize/">the Bootstrap customizer</a>!</p>
+            <h3><i class="fa fa-pencil"></i> Sharing</h3>
+            <p>Once you have learnt some thing share here. Its a place to share your ideas and thoughts with others to get benifited out of art of sharing!. </p>
           </div>
           <div class="col-lg-4 col-md-4">
-            <h3><i class="fa fa-folder-open"></i> Many Page Options</h3>
-            <p>This template features many common pages that you might see on a business website. Pages include: about, contact, portfolio variations, blog, pricing, FAQ, 404, services, and general multi-purpose pages.</p>
+            <h3><i class="fa fa-folder-open"></i> Contributing</h3>
+            <p>Java is not a closed stack. Its developed and launched in a transparent community mode. Why not just learn and share Java! lets all be part of the global communtiy to make the future Java!</p>
           </div>
         </div><!-- /.row -->
 
@@ -70,8 +70,8 @@
 
         <div class="row">
           <div class="col-lg-12">
-            <h2>Modern Business: A Clean &amp; Simple Full Website Template by Start Bootstrap</h2>
-            <p>A complete website design featuring various single page templates from Start Bootstraps library of free HTML starter templates.</p>
+          	<h2>Java User Group - Chennai</h2> <p>An effort to bring all Java enthusiast in and around Chennai. We strive to create a platform for all levels of expertise and bring out their skills in Java related technology to promote, collaborate, share and learn from each other. This is a volunteer,community-driven group strive to help and discuss about the java ecosystem, the back bone of this community are the members and its sponsors.
+        </p>
             <hr>
           </div>
         </div><!-- /.row -->
